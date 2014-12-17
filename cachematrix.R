@@ -1,7 +1,8 @@
 ## makeCacheMatrix() is to be called first to store a matrix,
-## and set up its inverse. Then, the inverse of that matrix
-## will only be calculated once for the matrirx, subsequent
-## calls to calculated the inverse will return the cached value
+## and set up its inverse. Then, cacheSolve() can be called
+## multiple times to retrieve the inverse of that matrix.
+## The inverse will only be calculated once, subsequent
+## calls to calculate the inverse will return the cached value
 
 ## makeCacheMatrix() creates objects that stores a matrix
 ## and its inverse
